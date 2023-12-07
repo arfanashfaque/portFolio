@@ -576,9 +576,29 @@ span {
     width: 70%;
 }
 
+.project {
+    min-height: auto;
+    display: flex;
+     justify-content: center; 
+     align-items: center; 
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--second-bg-color);
+    padding-bottom: 6rem;
+    background: var(--bg-color);
+}
+
+.project-content {
+    text-align: start;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    gap: 2rem;
+}
+
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
+    background: var(--second-bg-color);
 }
 
 .contact form {
@@ -658,7 +678,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .iconTop a {
