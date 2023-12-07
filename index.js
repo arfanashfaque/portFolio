@@ -28,6 +28,8 @@ window.onscroll = () => {
 
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
+    
+    
 }
 
 //toggle navbar
@@ -39,4 +41,19 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 
+//Project section
+var A = true
+// Get the paragraph and header elements
+var resultParagraph = document.getElementById("projectPara");
+var resultHeader = document.getElementById("projectHeader");
+var resultTools = document.getElementById("pc");
 
+// Check if A has a value
+if (A) {
+    resultHeader.innerText = "Sports-Faclity-App";
+    resultParagraph.innerText ="This application is designed to help users locate turfs, courts, and other recreational spaces in Fort Kochi.Currently, there is a lack of such dedicated apps within the Fort Kochi region."
+    resultTools.innerText = `Tools Used : React Native,MongoDB`
+ 
+} else {
+    resultHeader.innerText = "Currently no projects ongoing";
+}
