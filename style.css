@@ -598,6 +598,24 @@ span {
 #pc{
     color: var(--main-color);
 }
+
+.pcompleted{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--main-color); !important
+}
+
+.pContent{
+font-size: 1.5rem;
+}
+
+.subHeader{
+    font-size: 2.2rem;
+    color: var(--text-color);
+    margin-top: 1.5rem;
+    text-align: left;   
+}
+
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
